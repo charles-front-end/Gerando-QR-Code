@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- JavaScript -->
+    <script src="js/scripts.js" defer></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <title>Gerador de QR Code</title>
+  </head>
+
+  <body>
+    <!-- Conteiner Principal abraca todo elementos da pagina -->
+    <div class="conteiner">
+    <!-- Header elemento semantico. Para titulo e sub-titulo -->
+      <header id="qr-header">
+        <h1>Gerador de QR Code</h1>
+        <p>Insira uma URL ou Texto para criar um QR Code</p>
+      </header>
+    <!-- Div para o formulário -->
+      <div id="qr-form">
+        <input id="input"
+          type="text"
+          placeholder="Digite o texto ou URL aqui."
+        />
+        <button id="button" >Gerar QR Code</button>
+      </div>
+        <!-- Div para imagem do QR Code -->
+      <div id="qr-code">
+        <img src="img/qrcode.png" alt="QR-code" width="190" height="190"/>
+      </div>
+
+    </div>
+  </body>
+</html>
