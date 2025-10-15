@@ -92,3 +92,45 @@ body {
   opacity: 1;
 }
 
+/* Responsividade  Tablets (1024px)*/
+@media (max-width: 1024px) {
+  .conteiner {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  #qr-header h1 {
+    font-size: 1.6rem;
+  }
+
+  #qr-header p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsividade  Celulares (600px)*/
+@media (max-width: 600px) {
+  .conteiner {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  #qr-header h1 {
+    font-size: 1.4rem;
+  }
+
+  #qr-header p {
+    font-size: 0.9rem;
+  }
+
+  #qr-form input,
+  #qr-form button {
+    height: 42px;
+    font-size: 0.95rem;
+  }
+
+  #qr-form button {
+    font-size: 1rem;
+  }
+}
+
