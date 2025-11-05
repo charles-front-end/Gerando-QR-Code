@@ -19,7 +19,7 @@ body {
   height: 290px;
   width: 400px;
   border-radius: 8px;
-  padding: 20px;
+  padding: 40px;
   transition: 0.3s;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 #qr-header p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #5e5c5c;
 }
 
@@ -157,8 +157,9 @@ body {
 
 @media (max-width: 300px) {
   .conteiner {
-    max-width: 100%;
-    padding: 55px;
+    height: 190px;
+    width: 250px;
+    padding: 30px;
   }
 
   #qr-header h1 {
