@@ -155,7 +155,7 @@ body {
   }
 }
 
-@media (max-width: 383px) {
+@media (max-width: 300px) {
   .conteiner {
     max-width: 100%;
     padding: 45px;
