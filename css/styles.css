@@ -134,3 +134,24 @@ body {
   }
 }
 
+/*Responsividade para Celular ate (400px)*/
+@media (max-width: 480px) {
+  .conteiner {
+    max-width: 100%;
+    padding: 40px;
+  }
+
+  #qr-header h1 {
+    font-size:1.5rem;
+  }
+
+  #qr-header p {
+    font-size: 0.9rem;
+  }
+
+  #qr-form input,
+  #qr-form button {
+    height: 30px;
+  }
+}
+
